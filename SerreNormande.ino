@@ -21,23 +21,20 @@
 ///////////////////////////////////////
 
 /////////////Trame HTML fournie par ThingSpeak/////////////
-const String trameTmpDht = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/171244/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&title=Temp%C3%A9rature+1&type=spline&yaxis=+%C2%B0C\"></iframe></p>";
-const String trameHumDht = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/171244/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&title=Humidit%C3%A9&type=spline&xaxis=+&yaxis=%25\"></iframe></p>";
-const String trameTmpBmp = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/171244/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&round=1&title=Temp%C3%A9rature+2&type=spline&xaxis=+&yaxis=+%C2%B0C\"></iframe></p>";
-const String tramePresBmp = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/171244/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&round=1&title=Pression+atmosph%C3%A9rique&type=spline&xaxis=+&yaxis=hPa\"></iframe></p>";
+const String trameTmpDht = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/*****/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&title=Temp%C3%A9rature+1&type=spline&yaxis=+%C2%B0C\"></iframe></p>";
+const String trameHumDht = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/*****/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&title=Humidit%C3%A9&type=spline&xaxis=+&yaxis=%25\"></iframe></p>";
+const String trameTmpBmp = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/*****/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&round=1&title=Temp%C3%A9rature+2&type=spline&xaxis=+&yaxis=+%C2%B0C\"></iframe></p>";
+const String tramePresBmp = "<p><iframe width=\"450\" height=\"260\" style=\"border: 1px solid #cccccc;\" src=\"https://thingspeak.com/channels/*****/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=120&round=1&title=Pression+atmosph%C3%A9rique&type=spline&xaxis=+&yaxis=hPa\"></iframe></p>";
 ///////////////////////////////////////
 
 /////////////PARAMETRE WIFI/////////////
-//const char* ssid = "Bbox-3B6A6A75"; //Froberville
-//const char* password = "66CED4AF5CA6133341E1AED23427EC";
-
-const char* ssid = "Bbox-2F0B0C93"; //Vaucottes
-const char* password = "66A217A35CEC43334F23711533172C";
+const char* ssid = "******"; 
+const char* password = "******";
 ///////////////////////////////////////
 
 /////////////PARAMETRE THINGSPEAK/////////////
-const unsigned long myChannelNumber = 171244;
-const char * myWriteAPIKey = "ITIGGYD7I3OUBZ20";
+const unsigned long myChannelNumber = ******;
+const char * myWriteAPIKey = "******";
 ///////////////////////////////////////
 
 /////////////VARIABLES/////////////
